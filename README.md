@@ -14,8 +14,8 @@ O Strapi.io é um Headless Content Management System (CMS) de código aberto, co
 - [2. Cadastrando Coleções no Strapi](Capitulos/Colecoes.md)
 - [3. Teste da API](Capitulos/API.md)
 - [4. Criando o Token de acesso](Capitulos/Token.md)
-- 5. Como adicionar, remover e alterar registros na sua coleção (Pendente)
+- [5. Como adicionar, remover e alterar registros na sua coleção](Capitulos/REST.md) (Pendente)
 
 # Aviso
 
-Este guia não possui nenhuma afiliação oficial com a equipe do Strapi.io. É baseado em experiências práticas e conhecimentos de docentes até a data de corte desta versão. Sempre consulte a documentação oficial do Strapi.io para informações atualizadas e oficiais.
+Este guia não possui nenhuma afiliação oficial com a equipe do Strapi.io. É baseado em experiências práticas e conhecimentos de docentes até a data de corte desta versão. Sempre consulte a documentação oficial do Strapi.io caso esteja procurando informações atualizadas e mais aprofundadas.
