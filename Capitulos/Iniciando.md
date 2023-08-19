@@ -13,11 +13,14 @@ Saberá que a instalação terminou quando sua tela estiver assim:
 ![InstalacaoStrapi2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/69ff284a-9710-44c8-a872-1c56f4302d11)
 
 - Depois da instalação, realizem o comando 'cd backend/' (cd de "Change Directory", e backend sendo o nome da sua pasta). Isso é importante pois os dois comandos a seguir precisam serem executados na nossa pasta do backend.
-- Agora, ainda no shell, realize o comando: 'npm run build'. Que será utilizado para criar a nossa admin UI. O processo estará terminado quando aparecer uma mensagem no shell escrita "localhost:1337/admin". (Espere alguns segundos e veja se também aparece linhas http de GET das páginas html do Strapi)
+- Agora, ainda no shell, realize o comando: 'npm run build'. Que será utilizado para criar a nossa admin UI. O processo estará terminado quando aparecer uma mensagem no shell escrita "Admin UI built successfully". (Espere alguns segundos e veja se também aparece linhas http de GET das páginas html do Strapi)
 - Após isso, aperte Ctrl+C para matar o nosso projeto.
-- Finalmente, realize o comando: 'npm run develop' (Antes disso, novamente faça o comando 'cd backend/' caso não esteja mais na pasta backend). Mesma coisa do passo anterior, você saberá que deu certo quando aparecer a mensagem no shell: "localhost:1337/admin".
+- Finalmente, realize o comando: 'npm run develop' (Antes disso, novamente faça o comando 'cd backend/' caso não esteja mais na pasta backend). O processo estará terminado quando aparecer uma mensagem no shell escrita "localhost:1337/admin".
 
-## Fim
+Quando termina, sua tela deve estar mais ou menos assim:
+
+![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/a3746931-96ed-4608-aa9d-e990090eee77)
+![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/6927378b-3831-4073-a733-13cd7115f47a)
 
 Com isso, você deve ter finalizado a instalado e criação do seu projeto Strapi corretamente. Agora só falta abrir a url do webview em uma nova aba (Pode só copiar e colar o link, mas tem um botãozinho par aisso do lado url).
 
