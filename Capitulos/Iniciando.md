@@ -30,7 +30,7 @@ Com isso, você deve estár na página inicial do Strapi, onde já podemos [cria
 
 ## Bug no Replit: Unable To Wake Up
 
-É bastante comum que você se depare com essa tela de erro ao tentar abrir o url do seu webview. Isso ocorre porque o replit não conseguiu realizar o comando HTTP de GET das páginas html do Strapi.
+É bastante comum que você se depare com essa tela de erro ao tentar abrir o url do seu webview. Isso ocorre porque o replit teve algum problema na hora de dar Run ou não conseguiu realizar o comando HTTP de GET das páginas html do Strapi.
 
 ![UnableToWakeUp](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/dc671c49-910c-44ef-9d5d-e617996450b3)
 
@@ -38,4 +38,4 @@ Para resolver isso basta apenas voltar no passo a passo e novamente realizar os 
 
 ![GETHttp](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/e4bebc67-7aa1-4b63-b980-941eb916ae19)
 
-
+Depois disso já pode prosseguir normalmente
