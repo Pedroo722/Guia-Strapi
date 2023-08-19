@@ -30,11 +30,20 @@ Nessa nova pagina, na abazinha do canto superior da tela. Do lado de 'Overview' 
 ![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/2339b2ee-15ae-4408-9e8a-802de9f8287e)
 ![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/50bdd3a8-54b8-4447-8468-fe1a7c66ea7f)
 
-Agora só preencha como feito na foto.
+Agora clique em Header e só preencha como feito na foto:
+- GET: [url da sua coleção do Strapi. No meu caso: "https://back.pedrohenriq1921.repl.co/api/clientes"]
+- Na segunda Key, a primeira linha com "Authorization" e a segunda com "Bearer [Token]". 
 
-GET: [url da sua coleção do Strapi. No meu caso: "https://back.pedrohenriq1921.repl.co/api/clientes"]
+![PreenchidoPostman](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/58ec7be6-fa90-4590-bc8e-eb4ef876b7a6)
 
-Na segunda Key, a primeira linha com "Authorization" e a segunda com "Bearer [Token]". 
+E por fim só clicar no botão *Send* no canto superior da tela. Com isso na caixa inferior da tela, deve aparecer os registros que foram anotados na sua coleção.
 
-E por fim só clicar em Send. Com isso na caixa inferior da tela, deve aparecer os registros que foram anotados na sua coleção
+![registros](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/b1ccf42b-acdb-4a87-bdd5-67575680a57e)
+![registros2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/178baac3-2bb8-49ca-ba28-4fb0611d99a8)
 
+Você pode adicionar "/1" ou "/2" na url da sua API para limitar o comando GET apenas ao elemento da sua tabela com id = 1 ou id = 2
+
+![id1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/edd5fdc0-e556-467e-ae6d-1c84738baffb)
+![id2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/152c0cb3-7015-45e0-ab24-6699d95245e5)
+
+Com isso finalizamos o teste inicial do nosso Token de acesso. [Agora iremos ver como utilizar os comandos da nossa REST API para conseguir adicionar, remover e alterar registros na nossa coleção.](REST.md)
