@@ -15,7 +15,7 @@ Passo a passo:
 
 Com isso, você deve ter finalizado a instalado e criação do seu projeto Strapi corretamente. Agora só falta abrir a url do webview em uma nova aba (Pode só copiar e colar o link, mas tem um botãozinho par aisso do lado url).
 
-No meu caso o url ficou: "https://back.pedrohenriq1921.repl.co". ("back" sendo o nome dado ao replit em branco).
+No meu caso o url ficou: "https://back.pedrohenriq1921.repl.co" ("back" sendo do nome dado ao replit em branco).
 
 Com isso, você deve estár na página inicial do Strapi, onde já podemos [partir para e a criação de coleções.]
 
