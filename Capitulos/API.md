@@ -15,6 +15,8 @@ Para acessar a sua API, você só precisa mudar no link do Dashboard inicial "/a
 
 Por exemplo, o link do meu dashboard inicial é "https://back.pedrohenriq1921.repl.co/admin". Logo o link para a API da minha coleção Clientes ficou "https://back.pedrohenriq1921.repl.co/api/clientes". 
 
+O link da API da nossa coleção é importante, é atraves disso que iremos realizar os comandos da API REST do Strapi ([GET, POST, PUSH, PUT e DELETE](https://docs.strapi.io/dev-docs/api/rest)) para manipular os dados do nosso Banco de Dados, oque veremos mais tarde. 
+
 No entanto, se você tentar acessar o link da sua API agora, a página mostrará o Erro 403 Forbidden. Ainda não é possivel acessar as informações pois ainda não alteramos as permissões necessárias.
 
 ![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/4a6f2f0d-c235-4f20-ae98-537376d9abf1)
