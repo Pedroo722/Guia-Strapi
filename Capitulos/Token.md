@@ -46,4 +46,4 @@ Você pode adicionar "/1" ou "/2" na url da sua API para limitar o comando GET a
 ![id1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/edd5fdc0-e556-467e-ae6d-1c84738baffb)
 ![id2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/152c0cb3-7015-45e0-ab24-6699d95245e5)
 
-Com isso finalizamos o teste inicial do nosso Token de acesso. [Agora iremos ver como utilizar os comandos da nossa REST API para conseguir adicionar, remover e alterar registros na nossa coleção.](REST.md)
+Com isso podemos ver que o nosso Token de acesso está funcionando. [Agora iremos ver como utilizar os comandos da nossa REST API para conseguir adicionar, remover e alterar registros na nossa coleção.](REST.md)
