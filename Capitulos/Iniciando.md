@@ -22,11 +22,11 @@ Quando termina, sua tela deve estar mais ou menos assim:
 ![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/a3746931-96ed-4608-aa9d-e990090eee77)
 ![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/6927378b-3831-4073-a733-13cd7115f47a)
 
-Com isso, você deve ter finalizado a instalado e criação do seu projeto Strapi corretamente. Agora só falta abrir a url do webview em uma nova aba (Pode só copiar e colar o link, mas tem um botãozinho par aisso do lado url).
+Com isso, você deve ter finalizado a instalado e criação do seu projeto Strapi corretamente. Agora só falta abrir a url do webview em uma nova aba (Pode só copiar e colar o link, mas também tem um botãozinho para isso do lado url).
 
 No meu caso o url ficou: "https://back.pedrohenriq1921.repl.co" ("back" sendo do nome dado ao replit em branco).
 
-Com isso, você deve estár na página inicial do Strapi, onde já podemos [criar o admin do módulo administrativo e partir para e a criação das nossas coleções.](Colecoes.md)
+Com isso, você deve estár na página inicial do Strapi, onde já podemos [criar o admin do módulo administrativo e partir para a criação das nossas coleções.](Colecoes.md)
 
 ## Bug no Replit: Unable To Wake Up
 
