@@ -5,7 +5,7 @@ De inicio, não tem segredo. Somente seguir passo a passo da [documentação do 
 Passo a passo:
 - Crie um replit em branco e o nomei-o (como "Back" por exemplo). É importante o uso de alguma ferramenta como o replit, pois a intalação do Strapi no ambiente de desenvolvimento local implicaria alguns problemas que dificultariam o desenvolvimento. Por hora, significa a hospedagem do nosso Back-end será limitada ao replit.
 - Agora no Shell, realizem o comando: 'npx create-strapi-app@latest my-project'. Que será usado para preparar o ambiente de desenvolvimento do Strapi. "my-project" será o nome da sua pasta. Logo pode ser alterado para algum outro nome que acharem melhor (como "backend" por exemplo.)
-- Para a instalação, escolha a versão 16 do Node.js, e então escolha a opção recomendada "Quickstart". Espere um pouco até terminar a nossa instalçao.
+- Para a instalação, escolha a versão 16_x do Node.js, e então escolha a opção recomendada "Quickstart". Espere um pouco até terminar a nossa instalação.
 - Depois da instalação, realizem o comando 'cd backend/' (cd de "Change Directory", e backend sendo o nome da sua pasta). Isso é importante pois os dois comandos a seguir precisam serem executados na nossa pasta do backend.
 - Agora, ainda no shell, realize o comando: 'npm run build'. Que será utilizado para criar a nossa admin UI. O processo estará terminado quando aparecer uma mensagem no shell escrita "localhost:1337/admin". (Espere alguns segundos e veja se também aparece linhas http de GET das páginas html do Strapi)
 - Após isso, aperte Ctrl+C para matar o nosso projeto.
