@@ -11,20 +11,22 @@ Passo a passo:
 - Após isso, aperte Ctrl+C para matar o nosso projeto.
 - Finalmente, realize o comando: 'npm run develop' (Antes disso, novamente faça o comando 'cd backend/' caso não esteja mais na pasta backend). Mesma coisa do passo anterior, você saberá que deu certo quando aparecer a mensagem no shell: "localhost:1337/admin".
 
-# Fim
+## Fim
 
 Com isso, você deve ter finalizado a instalado e criação do seu projeto Strapi corretamente. Agora só falta abrir a url do webview em uma nova aba (Pode só copiar e colar o link, mas tem um botãozinho par aisso do lado url).
 
 No meu caso o url ficou: "https://back.pedrohenriq1921.repl.co" ("back" sendo do nome dado ao replit em branco).
 
-Com isso, você deve estár na página inicial do Strapi, onde já podemos [partir para e a criação de coleções.]
+Com isso, você deve estár na página inicial do Strapi, onde já podemos [criar o admin do módulo administrativo e partir para e a criação das nossas coleções.]
 
-# Bug no Replit: Unable To Wake Up
+## Bug no Replit: Unable To Wake Up
 
 É bastante comum que você se depare com essa tela de erro ao tentar abrir o url do seu webview. Isso ocorre porque o replit não conseguiu realizar o comando HTTP de GET das páginas html do Strapi.
 
-Para resolver isso basta apenas voltar no passo a passo e novamente realizar os comandos 'npm run build' e então 'npm run develop' no Shell do projeto replit. E dessa vez espere até que as mensagens de GET aparecam no Shell.
+![UnableToWakeUp](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/dc671c49-910c-44ef-9d5d-e617996450b3)
 
-![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/e4bebc67-7aa1-4b63-b980-941eb916ae19)
+Para resolver isso basta apenas voltar no passo a passo e novamente realizar os comandos 'npm run build' e então 'npm run develop' no Shell do projeto replit. E dessa vez espere até que as mensagens de GET aparecam no Shell. Como mostra a imagem:
+
+![GETHttp](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/e4bebc67-7aa1-4b63-b980-941eb916ae19)
 
 
