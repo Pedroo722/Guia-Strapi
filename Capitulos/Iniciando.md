@@ -26,7 +26,7 @@ Com isso, você deve ter finalizado a instalado e criação do seu projeto Strap
 
 No meu caso o url ficou: "https://back.pedrohenriq1921.repl.co" ("back" sendo do nome dado ao replit em branco).
 
-Com isso, você deve estár na página inicial do Strapi, onde já podemos [criar o admin do módulo administrativo e partir para e a criação das nossas coleções.]
+Com isso, você deve estár na página inicial do Strapi, onde já podemos [criar o admin do módulo administrativo e partir para e a criação das nossas coleções.](Colecoes.md)
 
 ## Bug no Replit: Unable To Wake Up
 
