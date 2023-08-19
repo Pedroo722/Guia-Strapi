@@ -21,5 +21,10 @@ Com isso, você deve estár na página inicial do Strapi, onde já podemos [part
 
 # Bug no Replit: Unable To Wake Up
 
-É bastante comum que você se depare com essa tela de erro ao tentar abrir o url do seu webview. Isso ocorre porque o replit não conseguiu realizar o comando HTTP de GET das páginas html do Strapi, para resolver isso basta apenas voltar no passo a passo e novamente realizar os comandos 'npm run build' e então 'npm run develop' no Shell do projeto replit.
+É bastante comum que você se depare com essa tela de erro ao tentar abrir o url do seu webview. Isso ocorre porque o replit não conseguiu realizar o comando HTTP de GET das páginas html do Strapi.
+
+Para resolver isso basta apenas voltar no passo a passo e novamente realizar os comandos 'npm run build' e então 'npm run develop' no Shell do projeto replit. E dessa vez espere até que as mensagens de GET aparecam no Shell.
+
+![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/e4bebc67-7aa1-4b63-b980-941eb916ae19)
+
 
