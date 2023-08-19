@@ -11,9 +11,9 @@ Com isso você sera levado a página inicial do Dashboard do nosso projeto repli
 
 ![DashboardInicial](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/33ee37a0-7928-43f6-b963-5132860e2c21)
 
-Vá em **Content-Type Builder**. Essa página é utiliza por administradores para criar e alterar coleções. Que serão utilizadas para configurar os tipos de dados que a suas tabelas de dados serão responsável por armazenar e organizar. É possivel ter mais de uma coleção
-
 ## A Coleção
+
+No canto esquerdo da nossa paágina inicial do Dashboard, vá em **Content-Type Builder**. Essa página é utiliza por administradores para criar e alterar suas coleções. Que serão utilizadas para configurar os tipos de dados que a suas tabelas de dados serão responsável por armazenar e organizar. É possivel ter mais de uma coleção no mesmo projeto Strapi.
 
 Dê um nome e os tipos de informações que serão salvos nessa tabela de dados especifica.
 
