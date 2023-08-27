@@ -77,7 +77,7 @@ O comando PUT é utilizado para alterar um registro existente. Para isso será n
 
 ![PUT_1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/f59f5dc8-da3e-42e4-8030-76bba221349c)
 
-Enquanto que no Body, novamente será necessário criar um arquivo json. Mas dessa vez será necessário especificar somente os atributos quem serão editados
+Enquanto que no Body, novamente será necessário criar um arquivo json. Mas dessa vez será necessário especificar somente os atributos que serão editados
 
 ![PUT_2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/c4a2aa67-83eb-4011-8e30-fd3b1edc11dc)
 
