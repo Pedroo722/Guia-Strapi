@@ -50,7 +50,7 @@ Adicionalmente, você pode ainda adicionar "/1" ou "/2" na url da sua API para l
 
 ### Status: 503 Bad Gateway
 
-Por ocorrer do seu request falhar, retornando o status 502 e uma mensagem de erro: "Unable To Wake Up" onde deveria haver seus registros, como mostra a imagem.
+Aleatoriamente, ao clickar no *Send* pode ocorrer do seu request falhar. Retornando assim o status 502 e uma mensagem de erro do Replit: "Unable To Wake Up", no lugar onde deveria haver seus registros, como mostra a imagem.
 
 ![Error 503](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/b4ac2929-a0b0-448a-8822-4a40b2dedfc2)
 
