@@ -8,11 +8,11 @@ Token duration fica como Unlimited e Token type fica como Full access. Exemplo:
 
 Com isso clique em salvar e então copie e guarde o codigo do seu Token em algum lugar. Por razões de segurança, você só pode ver o Token uma única vez, então guarde em um lugar seguro.
 
-## Teste com postman
+## Teste da API REST com postman
 
-Agora um passo mais opcional para testarmos se o nosso Token está mesmo utilizável. Abra em uma nova guia o seguinte url:
+Agora um passo mais opcional para testarmos se o nosso Token está mesmo utilizável, e aproveitando iremos ver os comandos da API REST do Strapi, que serão utilizados quando formos realizar a integração do nosso Back-end com o Front-end. Primeiramente, abra em uma nova guia o seguinte url:
 
-https://www.postman.com/
+ https://www.postman.com/
 
 No canto superior, clique em sign in e entre com alguma conta do google.
 
@@ -30,6 +30,8 @@ Nessa nova pagina, na abazinha do canto superior da tela. Do lado de 'Overview' 
 ![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/2339b2ee-15ae-4408-9e8a-802de9f8287e)
 ![image](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/50bdd3a8-54b8-4447-8468-fe1a7c66ea7f)
 
+### GET
+
 Agora clique em Header e só preencha como feito na foto:
 - GET: [url da sua coleção do Strapi. No meu caso: "https://back.pedrohenriq1921.repl.co/api/clientes"]
 - Na segunda Key, a primeira linha com "Authorization" e a segunda com "Bearer [Token]". 
@@ -45,5 +47,11 @@ Você pode adicionar "/1" ou "/2" na url da sua API para limitar o comando GET a
 
 ![id1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/edd5fdc0-e556-467e-ae6d-1c84738baffb)
 ![id2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/152c0cb3-7015-45e0-ab24-6699d95245e5)
+
+### POST
+
+### PUT
+
+### DELETE
 
 Com isso podemos ver que o nosso Token de acesso está funcionando. [Agora iremos ver como utilizar os comandos da nossa REST API para conseguir adicionar, remover e alterar registros na nossa coleção.](REST.md)
