@@ -59,7 +59,7 @@ Isso ocorreu porque o seu servidor no replit parou de funcionar, para resolver i
 
 ### POST
 
-O segundo comando da API REST do Strapi é o comando POST, utilizado para criar um novo registro na sua coleção. Assim como no comando GET, será necessário preencher o cabecário superior com o url da sua API e o Token de acesso.
+O segundo comando da API REST do Strapi é o comando POST, utilizado para criar um novo registro na sua coleção. Assim como no comando GET, será necessário preencher o cabeçalho superior com o url da sua API e o Token de acesso.
 
 ![POST_1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/15a82593-08c8-404f-bc82-dfc2d0760ee0)
 
