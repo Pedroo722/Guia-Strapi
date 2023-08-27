@@ -44,7 +44,7 @@ E por fim só clicar no botão *Send* no canto superior da tela. Com isso na cai
 ![registros](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/b1ccf42b-acdb-4a87-bdd5-67575680a57e)
 ![registros2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/178baac3-2bb8-49ca-ba28-4fb0611d99a8)
 
-Adicionalmente, você pode escolher adicionar algum parametro ao seu comando GET, limitando o retorno de registro. Por exemplo, "/1" ou "/2" no final da sua url limitará o comando GET para agir apenas nos elementoe da sua tabela com id = 1 ou id = 2
+Adicionalmente, você pode escolher adicionar algum parametro ao seu comando GET, limitando o retorno de registro. Por exemplo, "/1" ou "/2" no final da sua url limitará o comando GET para agir apenas nos elementos da sua tabela com id = 1 ou id = 2
 
 ![id1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/edd5fdc0-e556-467e-ae6d-1c84738baffb)
 ![id2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/152c0cb3-7015-45e0-ab24-6699d95245e5)
