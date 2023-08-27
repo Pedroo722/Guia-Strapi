@@ -38,15 +38,23 @@ Agora clique em Header e só preencha como feito na foto:
 
 ![PreenchidoPostman](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/58ec7be6-fa90-4590-bc8e-eb4ef876b7a6)
 
-E por fim só clicar no botão *Send* no canto superior da tela. Com isso na caixa inferior da tela, deve aparecer os registros que foram anotados na sua coleção.
+E por fim só clicar no botão *Send* no canto superior da tela. Com isso na caixa inferior da tela, você verá o status do seu request, se o código for 200, sua requisição deu certo. Logo deve aparecer os registros que foram anotados na sua coleção, como mostrá a imagem.
 
 ![registros](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/b1ccf42b-acdb-4a87-bdd5-67575680a57e)
 ![registros2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/178baac3-2bb8-49ca-ba28-4fb0611d99a8)
 
-Você pode adicionar "/1" ou "/2" na url da sua API para limitar o comando GET apenas ao elemento da sua tabela com id = 1 ou id = 2
+Adicionalmente, você pode ainda adicionar "/1" ou "/2" na url da sua API para limitar o comando GET apenas ao elemento da sua tabela com id = 1 ou id = 2
 
 ![id1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/edd5fdc0-e556-467e-ae6d-1c84738baffb)
 ![id2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/152c0cb3-7015-45e0-ab24-6699d95245e5)
+
+### Status: 503 Bad Gateway
+
+Por ocorrer do seu request falhar, retornando o status 502 e uma mensagem de erro: "Unable To Wake Up" onde deveria haver seus registros, como mostra a imagem.
+
+![Error 503](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/b4ac2929-a0b0-448a-8822-4a40b2dedfc2)
+
+Isso ocorreu porque o seu servidor no replit parou de funcionar, para resolver isso, apenas volte no Shell do seu projeto e refaça o comando "npm run develop".
 
 ### POST
 
