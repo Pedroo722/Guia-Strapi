@@ -32,10 +32,11 @@ Nessa nova pagina, na abazinha do canto superior da tela. Do lado de 'Overview' 
 
 ### GET
 
-Agora clique em Header e só preencha como feito na foto:
+O primeiro comando da API REST que iremos testar é o comando 'GET'. Utilizado para retornar os registros de nossa coleção. Por padrão retornando todos os registros públicos.
+
+Para realizar o comando no Postman, clique em *Header* e então só preencha como feito na foto, usando o url da sua API:
 - GET: [url da sua coleção do Strapi. No meu caso: "https://back.pedrohenriq1921.repl.co/api/clientes"]
 - Na segunda Key, a primeira linha com "Authorization" e a segunda com "Bearer [Token]". 
-
 ![PreenchidoPostman](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/58ec7be6-fa90-4590-bc8e-eb4ef876b7a6)
 
 E por fim só clicar no botão *Send* no canto superior da tela. Com isso na caixa inferior da tela, você verá o status do seu request, se o código for 200, sua requisição deu certo. Logo deve aparecer os registros que foram anotados na sua coleção, como mostrá a imagem.
@@ -43,7 +44,7 @@ E por fim só clicar no botão *Send* no canto superior da tela. Com isso na cai
 ![registros](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/b1ccf42b-acdb-4a87-bdd5-67575680a57e)
 ![registros2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/178baac3-2bb8-49ca-ba28-4fb0611d99a8)
 
-Adicionalmente, você pode ainda adicionar "/1" ou "/2" na url da sua API para limitar o comando GET apenas ao elemento da sua tabela com id = 1 ou id = 2
+Adicionalmente, você pode escolher adicionar algum parametro ao seu comando GET, limitando o retorno de registro. Por exemplo, "/1" ou "/2" no final da sua url limitará o comando GET para agir apenas nos elementoe da sua tabela com id = 1 ou id = 2
 
 ![id1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/edd5fdc0-e556-467e-ae6d-1c84738baffb)
 ![id2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/152c0cb3-7015-45e0-ab24-6699d95245e5)
@@ -57,6 +58,12 @@ Aleatoriamente, ao clickar no *Send* pode ocorrer do seu request falhar. Retorna
 Isso ocorreu porque o seu servidor no replit parou de funcionar, para resolver isso, apenas volte no Shell do seu projeto e refaça o comando "npm run develop".
 
 ### POST
+
+O segundo comando da API REST do Strapi é o comando POST, utilizado para criar um novo registro na sua coleção. Assim como no comando GET, será necessário preencher o cabecário superior com o url da sua API e o Token de acesso.
+
+![POST_1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/4a547432-ef30-40d5-b24e-974809c0fe59)
+
+Mas dessa vez
 
 ### PUT
 
