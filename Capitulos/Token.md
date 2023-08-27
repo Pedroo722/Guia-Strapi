@@ -61,12 +61,34 @@ Isso ocorreu porque o seu servidor no replit parou de funcionar, para resolver i
 
 O segundo comando da API REST do Strapi é o comando POST, utilizado para criar um novo registro na sua coleção. Assim como no comando GET, será necessário preencher o cabecário superior com o url da sua API e o Token de acesso.
 
-![POST_1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/4a547432-ef30-40d5-b24e-974809c0fe59)
+![POST_1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/15a82593-08c8-404f-bc82-dfc2d0760ee0)
 
-Mas dessa vez
+Mas dessa vez, também será necessário preencher na aba "Body" (e no formato Json), um arquivo json contendo o id, as informações e atributos do novo registro a ser criado. Como mostra a image:
+
+![POST_2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/d8141485-0085-4af9-a548-9dd326561dd6)
+
+Com isso, na parte inferior da tela, o site retornará as informações do novo registro criado.
+
+![Post_response](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/bee06678-659a-4812-ae59-4f842af239fb)
 
 ### PUT
 
+O comando PUT é utilizado para alterar um registro existente. Para isso será necessário especificar na url da sua API o registro especifico que deseja ser alterado.
+
+![PUT_1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/f59f5dc8-da3e-42e4-8030-76bba221349c)
+
+Enquanto que no Body, novamente será necessário criar um arquivo json. Mas dessa vez será necessário especificar somente os atributos quem serão editados
+
+![PUT_2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/c4a2aa67-83eb-4011-8e30-fd3b1edc11dc)
+
+O postman retornará o novo registro editado, e você pode ainda realizar o comando GET novamente para verificar que o seu atributo foi mesmo editado. Como mostrá a imagem onde o telefone do terceiro registro foi alterado depois de realizarmos o comando GET:
+
+![PUT_response_(GET)](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/d3fb0630-5bec-4a31-9098-88524eb61471)
+
 ### DELETE
+
+Por fim, o último comando da API REST é o comando DELETE, cuja funcionalidade é bem intuitiva. DELETE simplesmente deletará algum registro com base no valor especificado no url da sua API. Não havendo necessidade de se criar algum arquivo Json.
+
+![DELETE](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/24d52b3f-c834-4ce6-aa2d-0c3af0020a67)
 
 Com isso podemos ver que o nosso Token de acesso está funcionando. [Agora iremos ver como utilizar os comandos da nossa REST API para conseguir adicionar, remover e alterar registros na nossa coleção.](REST.md)
