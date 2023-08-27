@@ -91,4 +91,14 @@ Por fim, o último comando da API REST é o comando DELETE, cuja funcionalidade 
 
 ![DELETE](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/24d52b3f-c834-4ce6-aa2d-0c3af0020a67)
 
-Com isso podemos ver que o nosso Token de acesso está funcionando. [Agora iremos ver como utilizar os comandos da nossa REST API para conseguir adicionar, remover e alterar registros na nossa coleção.](REST.md)
+Como resposta, o site retorna o registro deletado e o seus atributos.
+
+![DELETE_response1](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/90b4ac30-e4ae-47e0-9806-3b36032ba477)
+
+Caso haja uma tentativa de deletar algum registro já deletado ou inexistente, será retornado null e o Status 404.
+
+![DELETE_response2](https://github.com/Pedroo722/Guia-Strapi/assets/132232273/a812d28f-2285-4237-9649-535cc862fadb)
+
+## Axios e Integração
+
+Com isso podemos ver que o nosso Token de acesso está funcionando e ainda foi possivel checar os 4 comandos da API REST. Agora iremos ver como utilizar esses comandos junto da [biblioteca Axios para Javascript, para conseguirmos iniciar na integração entre o nosso Front-end e o nosso Back-end.](REST.md)
